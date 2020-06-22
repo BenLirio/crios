@@ -1,0 +1,12 @@
+steps:
+- name: node
+  entrypoint: npm
+  args: ['install']
+- name: node
+  entrypoint: npm
+  args: ['run', 'build']
+artifacts:
+  objects:
+    location: gs://crio.benlirio.com
+    paths: ['/app/build/.']
+    
