@@ -8,5 +8,4 @@ steps:
 artifacts:
   objects:
     location: gs://crio.benlirio.com
-    paths: ['/app/build/.']
-    
+    paths: ['build/.']
