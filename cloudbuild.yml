@@ -8,7 +8,6 @@ steps:
 artifacts:
   objects:
     location: gs://crio.benlirio.com
-    paths: ['package.json']
-    location: gs://crio.benlirio.com/folder
-    paths: ['README.md']
+    paths: ['build/**']
+
   
