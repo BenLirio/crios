@@ -8,4 +8,4 @@ steps:
 artifacts:
   objects:
     location: gs://crio.benlirio.com
-    paths: ['package.json']
+    paths: ['build/**.**']
